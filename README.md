@@ -19,3 +19,7 @@ This is just a rough implementation for a specific use-case and could be easily 
 * Open `gateway.php` 
     * replace "YOUR_BEARER_TOKEN" with the token from your long-life-token
     * replace "YOUR-HOMEASSISTANT-INSTANCE" with the URL or IP to your HA instance
+ 
+## Example
+
+![alt text](https://github.com/shering1988/homeassistant-sensor-website/blob/main/example.png?raw=true)
