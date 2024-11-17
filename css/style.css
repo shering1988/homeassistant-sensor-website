@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Tahoma, Verdana, sans-serif;
+    background: rgb(1,33,55);
+    background: linear-gradient(180deg, rgba(1,33,55,1) 0%, rgba(16,74,110,1) 35%, rgba(29,125,144,1) 100%);
+    background-attachment: fixed;
+    color: whitesmoke;
+}
+
+div#content {
+    max-width: 800px;
+    margin: 75px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+}
+
+h1 {
+    font-size: 1.5em;
+    color: rgb(63, 125, 141);
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin-top: 50px;
+    color:rgb(194, 197, 0);
+    margin-bottom: 40px;
+}
+
+div#currentEnergy {
+    font-size: 3em;
+    font-weight: 700;
+    text-align: center;
+}
+
+div#currentTemperatur {
+    font-size: 3em;
+    font-weight: 700;
+    text-align: center;
+}
+
+div#currentClouds {
+    font-size: 3em;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+div.energyHint {
+    font-size: 1em;
+    color:slategray;
+    margin-top: 15px;
+    text-align: center;
+}
+
+div.attribute {
+    text-align: center;
+    padding: 15px;
+    font-weight: 700;
+    font-size: 1.2em;
+    color:rgb(179, 179, 179);
+}
+
+div.sun {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 0;
+    opacity: 0.05;
+    width: 50%;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+div.sun > img {
+    width: 100%;
+}
