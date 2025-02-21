@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Tahoma, Verdana, sans-serif;
+    background: rgb(1,33,55);
+    background: linear-gradient(180deg, rgba(1,33,55,1) 0%, rgba(16,74,110,1) 35%, rgba(29,125,144,1) 100%);
+    background-attachment: fixed;
+    color: whitesmoke;
+}
+
+div#content {
+    max-width: 800px;
+    margin: 75px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+}
+
+h1 {
+    font-size: 1.5em;
+    color: rgb(63, 125, 141);
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin-top: 50px;
+    color:rgb(194, 197, 0);
+    margin-bottom: 40px;
+}
